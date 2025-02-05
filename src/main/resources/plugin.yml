@@ -1,0 +1,16 @@
+name: WorldsGUI
+version: '${project.version}'
+main: net.worldsgui.WorldsGUI
+api-version: '1.13'
+author: TobiasF2211
+description: A simple and interactive plugin that adds a world selection GUI with an intuitive inventory menu, players can easily teleport between different worlds.
+commands:
+  worldsgui:
+    aliases: [worlds]
+    permission: "worldsgui.worldsguicommand.use"
+    description: "Open the worlds inventory"
+  worldsguireload:
+    permission: "worldsgui.worldsguireload.use"
+    description: "Reload the WorldGUI config"
+softdepend:
+  - PlaceholderAPI

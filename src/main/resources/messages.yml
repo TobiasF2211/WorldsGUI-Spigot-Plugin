@@ -1,0 +1,18 @@
+# Messages Configuration
+
+# Here you can define all messages for the plugin.
+
+prefix: "&eWorldGUI &8%->% &7"
+
+nopermission: "%prefix%&cYou do not have permission to do this."
+worldNotFound: "%prefix%&cThe world was not found."
+onlyplayer: "%prefix%&cOnly players can use this command."
+
+reloadedsuccessfully: "%prefix%&aThe plugin was successfully reloaded!"
+teleportedSuccessfully: "%prefix%&aYou have been teleported successfully!"
+
+# World generator like "PlotSquared" or others.
+# Define the message when no generator is found or doesn't exist.
+generatorifnull: "No generator found."
+
+# Have fun!

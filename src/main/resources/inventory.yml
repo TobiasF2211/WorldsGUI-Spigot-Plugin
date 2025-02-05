@@ -1,0 +1,178 @@
+# Inventory Configuration
+# Thank you for downloading! Configure your inventory settings here.
+
+# Set the number of slots for the inventory.
+# Slots must be in multiples of 9.
+# Minimum: 9 slots | Maximum: 54 slots
+slots: 45
+
+# Inventory title.
+# Only used when "inventorytexture" is set to false.
+# You can use color codes like "&a" for green.
+# Placeholders:
+# {page} = current page number
+inventoryname: "&7Worlds GUI &8| &7Page &e{page}"
+
+# Enable or disable custom inventory textures.
+# This feature allows you to use inventories with custom textures.
+# If you're unsure how this works, check out this tutorial:
+# https://www.spigotmc.org/threads/custom-inventory-ui-code-guide.525744/
+inventorytexture: false
+
+# Custom textures for pages when "inventorytexture" is set to true.
+# Define unique textures for different page types:
+custominventory_page_singlePage: "\uF001" # Single-page inventory (no next or back buttons).
+custominventory_page_firstPage: "\uF002" # First page (with a "next" button).
+custominventory_page_lastPage: "\uF003" # Last page (with a "back" button).
+custominventory_page_generellPage: "\uF004" # General pages (with both "back" and "next" buttons).
+
+# Define which inventory slots will be used for world buttons.
+worldslots:
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+
+# Items configuration
+# All items support PlaceholderAPI if it is installed on your server!
+items:
+  world_item:
+    overworld_material: "GRASS_BLOCK" # Overworld world type
+    nether_material: "NETHERRACK" # Nether world type
+    end_material: "END_STONE" # End world type
+    custom_material: "COMMAND_BLOCK" # Custom world type
+
+    dimension_overworld: "&aOverworld" # Overworld dimension text
+    dimension_nether: "&cNether" # Nether dimension text
+    dimension_end: "&eEnd" # End dimension text
+    dimension_custom: "&bCustom" # Custom dimension text
+
+    display-name: "&e{world_name} World"
+    lore:
+      - "&7Information:"
+      - "&7Generator: &e{generator}"
+      - "&7Difficulty: &e{difficulty}"
+      - "&7Player Count: &e{player_count}"
+      - "&7Type: &e{world_type}"
+      - "&7Seed: &e{seed}"
+      - "&7Hardcore: &e{hardcore}"
+      - "&7Time: &e{world_time}"
+      - "&7Spawn Location: &e{spawn_location}"
+    customModelData: 1001
+
+  next_button:
+    material: "ARROW"
+    display-name: "&eNext Page"
+    lore:
+      - "&7Click to go to the next page."
+    slot: 41 # This will override any existing item in the slot.
+    customModelData: 1002 # For custom textures
+
+  back_button:
+    material: "ARROW"
+    display-name: "&ePrevious Page"
+    lore:
+      - "&7Click to go back."
+    slot: 39 # This will override any existing item in the slot.
+    customModelData: 1003
+
+  0:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  1:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  2:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  3:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  4:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  5:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  6:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  7:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  8:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  9:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  17:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  18:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  26:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  27:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  35:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  36:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  37:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  38:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  39:
+    material: "GRAY_STAINED_GLASS_PANE" # These buttons will override any existing item.
+    display-name: " "
+
+  40:
+    material: "BOOK"
+    display-name: "&7Page &e{page}"
+    lore:
+      - "&7You are on page {page}."
+
+  41:
+    material: "GRAY_STAINED_GLASS_PANE" # These buttons will override any existing item.
+    display-name: " "
+
+  42:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  43:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+  44:
+    material: "GRAY_STAINED_GLASS_PANE"
+    display-name: " "
+
+# Have fun!

@@ -1,0 +1,26 @@
+# Plugin Configuration
+# Thank you for downloading!
+
+# Important messages:
+# If you add new worlds to the server, you have to use /worldsguireload
+# so the plugin can detect the new worlds.
+
+# If you want to set where the plugin teleports you when clicking on a world,
+# simply use the default /setworldspawn command or multiverse core with the /mv setspawn command.
+
+# Define how the plugin should handle world access by setting the type:
+# - Use "blacklist" to block the specified worlds.
+# - Use "whitelist" to allow only the specified worlds.
+# - Use "null" (or any other word) to disable this feature.
+type: null
+
+# List of worlds:
+# - If "whitelist" is selected, only these worlds will be accessible.
+# - If "blacklist" is selected, these worlds will be blocked.
+# - If disabled (type is "null"), this list will be ignored.
+worlds:
+  - world_nether
+  - world_end
+  - custom_world
+
+# Have fun!
