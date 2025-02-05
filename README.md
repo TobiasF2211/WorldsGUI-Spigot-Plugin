@@ -16,7 +16,7 @@ Additionally, you can **whitelist** or **blacklist** worlds, using it as a navig
 
 **Tutorial**: If you're unsure about how to create or customize inventories, check out this helpful https://www.spigotmc.org/threads/custom-inventory-ui-code-guide.525744/.
 
-ÜÜCommands**:
+**Commands**:
 - /worldsgui (**Alias**: /worlds) **-** Opens the world selector inventory
 - /worldsguireload **-** Reloads the plugin
 
